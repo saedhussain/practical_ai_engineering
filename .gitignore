@@ -1,0 +1,32 @@
+.env
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+.DS_Store
+
+# Vector store
+chroma_db/*
+!chroma_db/.gitkeep
+
+# Session databases (created by chat.py)
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated outputs (markdown reports, blogs, etc.)
+outputs/*
+!outputs/.gitkeep
+
+# Per-day chroma databases (if students create their own)
+day_*/chroma_db/*
+!day_*/chroma_db/.gitkeep
