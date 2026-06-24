@@ -2,7 +2,7 @@
 
 **A five-day intensive course on building real AI agent systems.**
 
-This repo contains the notebooks, source code, scripts, and tests for a one-week course in practical AI engineering — aimed at undergraduate computer science, software engineering, data science, and engineering students who want to learn how working AI systems are actually built.
+This repo contains the notebooks, source code, scripts, and tests for a one-week course in practical AI engineering — aimed at people familiar with Python (intermediate level) who want to learn how working AI systems are actually built.
 
 It's not a survey of every framework, model, or technique. It's a focused walk through a small set of production-quality patterns: how to design tools, how to give agents memory, how to orchestrate multiple agents, how to ground answers in your own data, and how to make all of it reliable enough to ship.
 
@@ -16,7 +16,7 @@ By the end of the week, you'll have built a multi-tool agent, a multi-agent syst
 |---|---|---|
 | **Day 1** | Foundations — chat loops and the OpenAI Agents SDK | A chat loop from scratch, then re-built with the SDK |
 | **Day 2** | Tools and memory | An agent with several tools and persistent sessions, refactored into a production-shaped Python package |
-| **Day 3** | Multi-agent orchestration | Three orchestration patterns (Manager, Handoff, Python) applied to real examples |
+| **Day 3** | Multi-agent orchestration | Three orchestration patterns (Manager, Handoff, Code Driven) applied to real examples |
 | **Day 4** | Retrieval-augmented generation | A complete RAG pipeline — ingestion, retrieval, grounded answers, citation validation, evaluation |
 | **Day 5** | Capstone | Your own AI system, demoed to the class |
 
@@ -119,7 +119,8 @@ pyenv local 3.13.0
 
 **Windows:**
 
-Download the Python 3.13 installer from [python.org/downloads](https://www.python.org/downloads/) and run it. Tick **"Add Python to PATH"** during installation.
+Download the Python 3.13 installer from [python.org/downloads](https://www.python.org/downloads/) and run it. 
+Tick **"Add Python to PATH"** during installation.
 
 Verify with:
 
@@ -255,9 +256,7 @@ Three principles shape the materials:
 
 ## Who this is for
 
-- **Undergraduates** in CS, software engineering, data science, or related fields
-- **Career-changers** moving into AI engineering from another technical role
-- **Engineers** who've worked with LLMs casually and want to learn the patterns used in production systems
+Anyone comfortable with Python who wants to move beyond LLM API tutorials and learn how real AI systems are engineered
 
 You should be comfortable with:
 
