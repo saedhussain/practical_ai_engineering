@@ -1,6 +1,5 @@
 # Practical Retrieval-Augmented Generation Workshop
 
-A three-hour workshop for third- and fourth-year engineering students.
 
 The project teaches three connected areas:
 
